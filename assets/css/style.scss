@@ -1,0 +1,158 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+body{
+   background-color: #292D34;
+}
+.header{
+    &__wrapper{
+    display: flex;
+    margin-top: 57px;
+    align-items: center;
+    justify-content: space-between;
+    } 
+    &__menu{
+    display: flex;
+    gap: 85px;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 26px;
+    padding-left: 67px;
+    background-color: #4F5359;
+    border-radius: 30px;
+    height: 83px;
+    max-width: 1050px;
+    font-size: 24px;
+    }
+    &__logo{
+    margin-left: 232px;
+    }
+    &__link{
+    color: #fff;
+    }
+    &__nav{
+    position: right;
+    }
+    &__additional_menu{
+    position: right;
+    }
+}
+
+
+.banner{
+    display: flex;
+    margin-top: 173px;
+    justify-content: space-between;
+    gap: 199px;
+    
+    &__text{
+    color: #fff;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    }
+    &__first{
+    justify-content: flex-start;
+    display: flex;
+    max-width: 700px;
+    background-color: #4F5359;
+    border-radius: 30px;
+    padding-left: 299px;
+    }  
+    &__second{
+    max-width: 700px;
+    background-color: #4F5359;
+    border-radius: 30px;
+    padding-left: 295px;
+    margin-right: 30px;
+    }  
+    &__deletion{
+    background-color: #292D34;
+    border-radius: 30px;
+    }
+    &__arrow{
+        margin-top: 278px;
+    }
+}
+.merch{
+    max-width: 401px;
+    max-height: 418px;
+    
+}
+.example{
+    &__text{
+        padding-left: 200px;
+        padding-top: 139px;
+    }
+    &__arrow{
+        padding-left: -10;
+    }
+    
+}
+.footer{
+    &__social-netmork{
+        display: flex;
+    }
+    
+
+    &__social-netmork{
+        display: flex;
+    }
+    &__title{
+        background-color: #005DFF;
+        padding-left: 38px;
+        padding-right: 169px;
+        padding-bottom: 100px;
+        border-radius: 30px;
+        color: #fff;
+    }
+    &__subtitle{
+        font-size: 16px;
+        display: flex;
+        gap: 30px;
+        border-radius: 10px;
+    }
+    &__subtitle-Telegram{
+        background-color: #000;
+        color: #fff;
+        padding-left: 14px;
+        padding-right: 86px;
+        padding-bottom: 100px;
+        border-radius: 10px;
+    }
+    &__subtitle-VK{
+        background-color: #000;
+        color: #fff;
+        padding-left: 14px;
+        padding-right: 86px;
+        padding-bottom: 100px;
+        border-radius: 10px;
+
+    }
+    &__text{
+        color: #fff;
+    
+    }
+    &__mail{
+        font-size: 24px;
+
+    }
+    &__policy{
+        font-size: 16px;
+    }
+}
